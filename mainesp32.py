@@ -42,8 +42,8 @@ def connectMQTT():
   client = MQTTClient(client_id=b"TeneT-IoT",
   server=b"36e9b7c4f0d8445489a9802addb355e3.s1.eu.hivemq.cloud",
   port=8883,
-  user=b"tenet",
-  password=b"Testenet1!",
+  user=b"userdb",
+  password=b"pwddb!",
   keepalive=7200,
   ssl=True,
   ssl_params={'server_hostname':'36e9b7c4f0d8445489a9802addb355e3.s1.eu.hivemq.cloud'}
