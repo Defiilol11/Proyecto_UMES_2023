@@ -64,8 +64,8 @@ def on_message(client, userdata, msg):
         
         conn = pymysql.connect(
             host='localhost',
-            user='DefiiTest',
-            password='Taracena12!',
+            user='userdb,
+            password='pwddb!',
             db='proyecto_umes_2023',
             charset='utf8mb4',
             cursorclass=pymysql.cursors.DictCursor
@@ -95,7 +95,7 @@ client.on_connect = on_connect
 # enable TLS for secure connection
 client.tls_set(tls_version=mqtt.client.ssl.PROTOCOL_TLS)
 # set username and password
-client.username_pw_set("defii", "Taracena1!")
+client.username_pw_set("usermqtt", "pwdmqtt!")
 # connect to HiveMQ Cloud on port 8883 (default for MQTT)
 client.connect("36e9b7c4f0d8445489a9802addb355e3.s1.eu.hivemq.cloud", 8883)
 
