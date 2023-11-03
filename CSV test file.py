@@ -4,8 +4,8 @@ import csv
 # Configura los detalles de tu conexión a la base de datos
 db_config = {
     "host": "localhost",
-    "user": "DefiiTest",
-    "password": "Taracena12!",
+    "user": "userdb",
+    "password": "pwddb!",
     "database": "proyecto_umes_2023"
 }
 
