@@ -64,7 +64,7 @@ def on_message(client, userdata, msg):
         
         conn = pymysql.connect(
             host='localhost',
-            user='userdb,
+            user='userdb',
             password='pwddb!',
             db='proyecto_umes_2023',
             charset='utf8mb4',
